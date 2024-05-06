@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 import { useElementBounding, useWindowSize, watchDebounced } from '@vueuse/core';
-import { onMounted, onUpdated, ref } from 'vue';
+import { onMounted, ref } from 'vue';
 import RowsComponent from '@components/RowsComponent.vue';
 import useArrayData from '@composables/useArrayData';
 
